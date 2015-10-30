@@ -2604,6 +2604,7 @@ li {
   max-width: 400px;
   padding-top: 70px;
   background: url(../images/header.gif) no-repeat top right scroll;
+  background-size: 310px auto;
 }
 #mc_embed_signup {
   background: rgba(26, 26, 26, 0.5);
