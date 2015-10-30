@@ -2581,6 +2581,10 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
   -webkit-font-smoothing: antialiased;
 }
+body,
+html {
+  background: #eeeeee;
+}
 html {
   width: 100%;
   height: 100%;
@@ -2593,9 +2597,18 @@ li {
   margin: 0;
   padding: 0;
 }
-#mc_embed_signup {
+.wrap {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
+  padding-top: 70px;
+  background: url(../images/header.gif) no-repeat top right scroll;
+}
+#mc_embed_signup {
+  background: rgba(26, 26, 26, 0.5);
+}
+#mc_embed_signup div.mc-field-group {
+  margin-bottom: 20px;
+  padding-bottom: 0;
 }
